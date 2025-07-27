@@ -2,8 +2,6 @@
 
 This project utilizes the Particle Swarm Optimization (PSO) algorithm to determine the optimal location for a new high school in Wonomerto Village, Indonesia. By processing spatial data extracted from OpenStreetMap, the project aims to minimize the average travel distance between students' homes and the proposed school. This work was developed as part of the final project for the Introduction to Computational Intelligence course at IPB University.
 
-The problem is approached as a **facility location optimization** task, where spatial data from OpenStreetMap is used to find a location that **minimizes the total travel distance** from all residential buildings to the proposed school site.
-
 ---
 
 ## 🎯 Project Objectives
@@ -45,10 +43,10 @@ The problem is approached as a **facility location optimization** task, where sp
 
 ---
 
-## 📌 Key Results
+## 📊 Key Results
 
 - **Optimal Coordinates for New School**: `(-7.06952169, 109.79080754)`
-- **Optimization Result**: A well-centered location that reduces the average travel distance for all residents.
+- **Optimization Result**: A well-centered location that reduces the average travel distance from all **residents' houses**.
 - **Convergence**: The PSO algorithm successfully converged after 24–40 iterations with consistent improvement.
 
 ---
@@ -57,9 +55,9 @@ The problem is approached as a **facility location optimization** task, where sp
 
 The final visualization displays:
 
-- The distribution of all residential buildings.
+- The distribution of all **residents' houses**.
 - The optimal school location.
-- Connection lines indicating the distance between each house and the proposed school.
+- Connection lines indicating the distance between each **house**.
 
 This provides clear insight into how the selected point minimizes access distance across the village.
 
